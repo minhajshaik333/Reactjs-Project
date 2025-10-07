@@ -1,0 +1,28 @@
+.bgWallpaper1{
+    background: linear-gradient(45deg,rgba(0,0,0,0.7),rgb(0,0,0,0.7)),url("https://img.freepik.com/premium-photo/futuristic-tech-wonders-nextgen-gadgets-exploration_1015874-10625.jpg?semt=ais_incoming&w=740&q=80") no-repeat center center/cover;
+}
+.bgWallpaper2{
+    background: linear-gradient(45deg,rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("https://www.shutterstock.com/image-photo/beautiful-girl-set-jewelry-woman-600nw-1482513683.jpg")no-repeat center center/cover;
+}
+.bgWallpaper3{
+    background: linear-gradient(45deg,rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("https://images.pexels.com/photos/298863/pexels-photo-298863.jpeg?cs=srgb&dl=pexels-solliefoto-298863.jpg&fm=jpg")no-repeat center center/cover;
+}
+.bgWallpaper4{
+    background: linear-gradient(45deg,rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("https://ygo-assets-websites-editorial-emea.yougov.net/images/GettyImages-1656866337.original.jpg")no-repeat center center/cover;
+}
+
+.bgContainer{
+   width: 1500px ;
+    height: 700px;
+    box-shadow: 0 0 13px black;
+    margin: 100px auto;
+}
+.ad-display{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: 700px;
+
+}

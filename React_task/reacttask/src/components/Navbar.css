@@ -1,0 +1,60 @@
+
+img{
+    border-radius: 50%;
+
+}
+ .links{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100%;
+ } 
+.links a{
+    color: rgb(160, 156, 156);
+    text-decoration: none;
+    font-size: 24px;
+    transition: all 0.7s;
+   
+}
+a:hover{
+    color: azure;
+    text-decoration: underline;
+    text-decoration-style: dotted;
+    text-decoration-skip-ink: auto;
+
+    
+}
+.btt{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    
+}
+.btt button{
+    border: 2px solid silver;
+    background-color: transparent;
+    font-size: 17px;
+    padding: 4px 23px;
+    transition: all 0.8s;
+    color: silver;
+}
+.btt button:hover{
+    background-color:silver;
+    color: rgb(0, 0, 0);
+}
+.logo1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    font-size: 40px;
+}
+
+.logo2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    font-size: 40px;
+}

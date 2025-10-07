@@ -1,0 +1,83 @@
+.contact{
+    height: 890px;
+    display: grid;
+    grid-template-rows: repeat(7,1fr) ;
+    
+}
+.con1{
+    /* background-color: rgb(218, 177, 177); */
+    padding-top: 77px;
+    text-align: center;
+}
+.con2{
+    /* background-color: blueviolet; */
+    text-align: center;
+}
+.con2 p{
+     padding-top: 17px;
+     font-size: 21px;
+    /* border: 2px solid black; */
+    width: 100%;
+}
+.con3{
+    /* background-color: brown; */
+    text-align: center;
+  
+}
+.con4{
+    /* background-color: burlywood; */
+    text-align: center;
+    padding-top: 5px;
+  
+}
+.col4 , input{
+    padding: 15px 250px 15px 0px;
+    margin: 0px 15px 0px;
+    border-right: none;
+    border-left: none;
+    border-top: none;
+    border-bottom: 2px solid blue;
+}
+.con5{
+    /* background-color: chartreuse; */
+    text-align: center;
+}
+.con5, textarea{
+    border-right: none;
+    border-left: none;
+    border-top: none;
+    /* border: 2px solid green; */
+    /* border-bottom: 2px solid blue; */
+}
+.con6{
+    /* background-color: cornflowerblue; */
+    text-align: center;
+}
+.contactb{
+    position: relative;
+    left: 380px;
+    padding: 19px 39px;
+    border-radius: 22px;
+    font-weight: bolder;
+    background-color: transparent;
+    color: azure;
+    font-size: 17px;
+    border: 2px solid blue;
+    color: black;
+    transition: all 0.8s;
+    
+}
+.contactb:hover{
+    background-color: blue;
+    color: azure;
+    border: none;
+    
+}
+.con7{
+    background-color: darkgrey;
+    text-align: center;
+    font-size: 29px;
+    padding: 30px;
+    /* border: 2px solid red; */
+    
+}

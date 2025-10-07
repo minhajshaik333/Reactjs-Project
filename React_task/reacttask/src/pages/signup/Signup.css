@@ -1,0 +1,77 @@
+.column{
+    height: 100vh;
+}
+#column1{
+    background:linear-gradient(55deg,rgba(12, 12, 18, 0.7),rgba(173, 113, 113, 0.7)),url(https://static.vecteezy.com/system/resources/thumbnails/021/511/832/small_2x/beautiful-asian-girl-holding-shopping-bag-posing-on-purple-background-photo.jpg) no-repeat center center/cover;
+}
+#column2{
+    display: flex;
+    flex-direction: column;
+    border: 6px dotted red;
+    padding-top: 100px;
+    align-items: center;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+#column2 input{
+    margin-top: 32px;
+    padding: 12px;
+    border-bottom: 0.5px solid rgb(97, 94, 94);
+    border-right: none;
+    border-top: none;
+    border-left: none;
+    width: 450px;   
+}
+#column2 button{
+    margin-top: 32px;
+    padding: 12px;
+    width: 450px;
+}
+#column2 h1{
+    padding-left:50px;
+    color: black;
+}
+#btn2{
+    background-color: transparent;
+    border: 2px solid rgb(47, 46, 46);
+    color: rgb(43, 39, 39);
+    transition: all 0.8s;
+}
+#btn2:hover{
+    background-color: darkgrey;
+}
+.btn1{
+    background-color: black;
+    color: azure;
+    border: none;
+    transition: all 0.8s;
+}
+.btn1:hover{
+    background-color:blue;
+    /* border: 2px solid black; */
+    color: azure;
+}
+.log a{
+    text-decoration: none;
+    position: relative;
+    top: 37px;
+    left: 90px;
+    transition: all 0.8s;
+}
+.log a:hover{
+    color: black;
+}
+.para{
+    position: relative;
+    top: 13px;
+    left: -30px;
+}
+#logo{
+    font-size: 21px;
+    position: relative;
+    top: -89px;
+    left:-100px ;
+}

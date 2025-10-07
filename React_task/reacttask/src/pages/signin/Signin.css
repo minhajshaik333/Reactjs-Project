@@ -1,0 +1,119 @@
+#part1{
+    height: 100vh;
+    /* border: 2px solid red; */
+    border-top-right-radius: 270px;
+    border-bottom-right-radius: 270px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#part1 h1{
+    font-size: 66px;
+}
+#part1 p{
+    font-size: 22px;
+    width: 500px;
+}
+#part1 button{
+    background-color: rgb(250, 247, 244);
+    color: black;
+    padding: 9px 51px;
+    transition: all 0.8s;
+    
+}
+#part1 button:hover{
+    background-color: black;
+    color: azure;
+}
+#part2{
+    height: 91vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: black;
+    /* border: 2px solid green; */
+}
+#part2 h1{
+    margin-bottom: 80px;
+    margin-top: 250px;
+    /* border: 2px solid red; */
+    color: black;
+}
+#part2 input{
+    margin-bottom: 30px;
+    /* border: 2px solid red; */
+    width: 600px;
+    padding: 16px 7px;
+    background-color: rgb(208, 208, 208);
+}
+#part2 a{
+    margin-bottom: 30px;
+    /* border: 2px solid red; */
+    color: black;
+    text-decoration: none;
+    transition: all 0.8s;
+}
+#part2 a:hover{
+    color: blue;
+}
+#part2 button{
+    margin-bottom: 30px;
+    /* border: 2px solid red; */
+    width: 600px;
+    padding: 16px 7px;
+    transition: all 0.8s;
+    
+}
+/* #part2 button-form-control:hover {
+  background-color: #f8f9fa;
+  border-color: #86b7fe;
+}
+
+#part2 button-form-control:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+} */
+#part2 button:hover{
+    background-color: black;
+    color: azure;
+}
+#part2 p{
+    margin-bottom: 40px;
+    /* border: 2px solid red; */
+    color: black;
+
+}
+#l1{
+    font-size: 34px;
+    position: relative;
+    top:-30px;
+    left: -80px;
+}
+#l2{
+    font-size: 34px;
+    position: relative;
+    top:-110px;
+    left: 0px;
+}
+#l3{
+    font-size: 34px;
+    position: relative;
+    top:-190px;
+    left: 80px;
+}
+#l4{
+    font-size: 32px;
+    position: relative;
+    top:-622px;
+    left: 262px;
+}
+#l5{
+    font-size: 28px;
+    position: relative;
+    top:-582px;
+    left: 262px;
+}

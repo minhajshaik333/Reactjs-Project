@@ -1,0 +1,78 @@
+
+.products-ad,h1, p {
+    color: azure;
+}
+.products-ad h1{
+    font-size: 75px;
+}
+.products-ad p{
+    font-size: 19px;
+}
+.container{
+    box-shadow: 0 0 13px black;
+    background: linear-gradient(55deg,rgba(155, 79, 4, 0.8),rgba(255, 240, 240, 0.7));
+    height: 150px;
+}
+.category{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* padding: 11px 0px; */
+    height: 150px;
+}
+.category img{
+    transition: all 0.8s;
+}
+.category img:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    border: 3px solid brown;
+}
+.category a{
+    text-decoration: none;
+    color: black;
+    font-size: 19px;
+}
+/* .category a:hover{
+    color: brown;
+} */
+.products-data{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 13px;
+    justify-content: space-evenly;
+    margin-top: 42px;
+    margin-bottom: 50px;
+
+}
+.card{
+    box-shadow: 0 0 14px rgb(0, 0, 0);
+    width: 300px;
+    height: 370px;
+    text-align: center;
+    background: linear-gradient(45deg,rgba(0,0,0,0.7),rgba(181, 162, 162, 0.7));
+}
+.card img{
+    padding: 12px;
+    transition: all 0.8s;
+}
+.card img:hover{
+    transform: scale(1.2);
+}
+.card ,h2 ,h3{
+    font-size: 17px;
+    color: azure;
+    margin: 9px 0px;
+}
+.card,button{
+    margin: 10px 5px 0px;
+    padding: 3px 11px;
+    border: none;
+    transition: all 0.8s;
+}
+.bt button:hover{
+    background-color: black;
+    color: azure;
+    
+}

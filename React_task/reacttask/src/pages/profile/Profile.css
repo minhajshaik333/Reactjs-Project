@@ -1,0 +1,8 @@
+.profile{
+    /* text-align: center; */
+    height: 91vh;
+    /* background-color: burlywood; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
